@@ -24,7 +24,8 @@ module.exports = {
     {
       resolve: "@narative/gatsby-theme-novela",
       options: {
-        basePath: "/blog/",
+        basePath: "/",
+        rootPath: "/blog",
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         authorsPage: true,
@@ -38,7 +39,7 @@ module.exports = {
       options: {
         name: `Viljami Kuosmanen`,
         short_name: `viljami.io`,
-        start_url: `/blog/`,
+        start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
