@@ -1,9 +1,8 @@
 ---
 title: The Consultants are Going Crazy
 author: Viljami Kuosmanen
-date: 2020-04-23
-#hero: ./images/hero.jpg
-#excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+date: 2020-04-24
+hero: ./images/setup.jpg
 ---
 
 > "Remote is the future of work"
