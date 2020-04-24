@@ -67,11 +67,11 @@ Something about a global pandemic. They're talking about the risks of opening sc
 
 *"Now that we're all forced to work from home, will companies finally realize how much more efficient remote asynchronous work is? #COVID19"*
 
-He decides to get a head start on getting some work done by taking only a 25-minute lunch break and gets back to the bedroom to work on his JIRA story:
+He decides to get a head start on some work and takes only a 25-minute lunch break to get back to the bedroom to work on his JIRA story:
 
-*VIDCO-19: As a user I want a searchable list view of all products*
+*VIDCO-19: As a user I want to search for products by name*
 
-He works on a mock list view. He feels productive.
+He works on a list view. He feels productive.
 
 At **13:00** he receives a Slack message. A team member has sent him a Zoom link for a remote coffee break.
 
@@ -97,10 +97,8 @@ The software team are asked to estimate each new story in the backlog. A frustra
 
 Somehow the team assign story points to each new story. Every story ends up getting a 3 story point estimate.
 
-The meeting ends at **17:00**. It was the last meeting scheduled for today.
+The meeting ends at **17:00**. It was the last meeting scheduled for today. The IT consultant finally gets his focused work time.
 
-For the IT consultant, as official working hours are over, he finally gets to have some focused work time.
+At **21:15** that same evening, feeling happy with his work, he submits a pull request, moves a subtask to the review column, and shares his thoughts to his followers: 
 
-At **20:48** later that evening, happy with his work, he submits a pull request, moves the JIRA task to be reviewed and tweets to his followers: 
-
-> "Do we really even need an office? #remotelife #COVID19"
+> "Did we ever really need an office? #COVID19 #remotelife"
