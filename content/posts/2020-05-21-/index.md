@@ -29,3 +29,5 @@ Looking back, I would've been so much better off early on if someone had told me
 Access to great resources, community, and good overall developer experience are the defining factor in getting productive quick. Picking a popular framework or library, be it [**Django**](https://www.djangoproject.com/), [**React**](https://reactjs.org/), [**Rails**](https://rubyonrails.org/) or [**Unity**](https://unity.com/) is in my opinion the best thing a beginner can do to start on a path of learning to code.
 
 For someone getting into any kind of programming today, I would start by asking them what kind of things they wish to build and then help them pick out a framework or library built for that purpose. Starting with a popular framework in the age of YouTube and online lectures, finding great (and free) online courses and tutorials shouldn't be an issue. 
+
+Learning different languages and paradigms, and especially learning about the quirks and features of your language of choice is definitely very useful and can make a huge difference to your productivity, but it's definitely not among the first things we should consider when helping someone get into programming.
