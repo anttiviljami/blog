@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Viljami Kuosmanen]]></title><description><![CDATA[A place to write things]]></description><link>https://anttiviljami.github.io/blog</link><image><url>https://anttiviljami.github.io/blog/icons/icon-512x512.png</url><title>Viljami Kuosmanen</title><link>https://anttiviljami.github.io/blog</link></image><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Jun 2020 16:26:38 GMT</lastBuildDate><atom:link href="https://anttiviljami.github.io/blog/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[The #1 thing I wish someone told me before I started programming]]></title><description><![CDATA[TL;DR;
+Stop telling beginner developers which languages they should learn and point them towards the best tools and frameworks instead. When…]]></description><link>https://anttiviljami.github.io/blog/The-1-thing-I-wish-someone-told-me-before-I-started-programming</link><guid isPermaLink="false">https://anttiviljami.github.io/blog/The-1-thing-I-wish-someone-told-me-before-I-started-programming</guid><dc:creator><![CDATA[Viljami Kuosmanen]]></dc:creator><pubDate>Thu, 21 May 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;The #1 thing I wish someone told me before I started programming&quot;,
+  &quot;author&quot;: &quot;Viljami Kuosmanen&quot;,
+  &quot;date&quot;: &quot;2020-05-21T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/amiga.jpg&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;TL;DR;\nStop telling beginner developers which languages they should learn and point them towards the best tools and frameworks instead.&quot;)), mdx(&quot;p&quot;, null, &quot;When I first started learning to code all I wanted to do was to build fun and useful things I could share with my friends. Back then, those things were mostly PC games (this was before the time kids had easy access to the internet). &quot;), mdx(&quot;p&quot;, null, &quot;After having learned some BASIC on my Commodore Amiga and then finally getting my first PC, my beginner\u2019s instinct was to excitedly pick a new serious sounding programming language I had heard about from my dad: &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;C++&quot;)), mdx(&quot;p&quot;, null, &quot;The only way I could think of how to get started was to try and get my hands on any C++ books and often outdated documentation available in our local library.&quot;), mdx(&quot;p&quot;, null, &quot;In hindsight this approach was obviously doomed from the beginning. Despite being a computer nerd, I was not a particularly smart or practical minded kid.&quot;), mdx(&quot;p&quot;, null, &quot;Beyond &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Hello World&quot;), &quot;, it turns out learning language features by writing console programs just isn\u2019t super helpful when your goal is to make the next hit PC game. Very quickly my younger self got demotivated by this approach. What\u2019s even worse, I don\u2019t think my friends were too impressed with the console programs I had written.&quot;), mdx(&quot;p&quot;, null, &quot;Luckily for me, my family got an internet connection in the early 00\u2019s and I soon found my way to a popular online community of kids learning to code games called &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://newgrounds.com&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), &quot;Newgrounds&quot;), &quot;.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\u201CLearning languages is a side-effect of becoming productive.&quot;)), mdx(&quot;p&quot;, null, &quot;Armed with a definitely-not-pirated version of Macromedia Flash MX with ActionScript and access to peers and online tutorials, I finally had the tools to really learn, experiment, and build creatively with code. This lead me to also learn web programming to build my own websites and simple server backends to add online functionality to the games I had built. I ended up starting my career in tech using those skills.&quot;), mdx(&quot;p&quot;, null, &quot;Looking back, I would\u2019ve been so much better off early on if someone had told me about the different available frameworks and tools I could\u2019ve used to build something resembling what I wanted to achieve. In my experience, learning a language usually comes as a side-effect of becoming productive rather than being a prerequisite.&quot;), mdx(&quot;p&quot;, null, &quot;Access to great resources, community, and good overall developer experience are the defining factor in getting productive quick. Picking a popular framework or library, be it &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://www.djangoproject.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;Django&quot;)), &quot;, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://reactjs.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;React&quot;)), &quot;, &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://rubyonrails.org/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;Rails&quot;)), &quot; or &quot;, mdx(&quot;a&quot;, _extends({
+    parentName: &quot;p&quot;
+  }, {
+    &quot;href&quot;: &quot;https://unity.com/&quot;,
+    &quot;target&quot;: &quot;_blank&quot;,
+    &quot;rel&quot;: &quot;noreferrer&quot;
+  }), mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;Unity&quot;)), &quot; is in my opinion the best thing a beginner can do to start on a path of learning to code.&quot;), mdx(&quot;p&quot;, null, &quot;For someone getting into any kind of programming today, I would start by asking them what kind of things they wish to build and then help them pick out a framework or library built for that purpose. Starting with a popular framework in the age of YouTube and online lectures, finding great (and free) online courses and tutorials shouldn\u2019t be an issue. &quot;), mdx(&quot;p&quot;, null, &quot;Learning different languages and paradigms, and especially learning about the quirks and features of your language of choice is definitely very useful and can make a huge difference to your productivity, but it\u2019s definitely not among the first things we should consider when helping someone get into programming.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[The Consultants are Going Crazy]]></title><description><![CDATA["Remote is the future of work" Tweets the IT consultant from his bathroom; preparing himself for the next 8 hours of Zoom meetings with…]]></description><link>https://anttiviljami.github.io/blog/The-Consultants-are-Going-Crazy</link><guid isPermaLink="false">https://anttiviljami.github.io/blog/The-Consultants-are-Going-Crazy</guid><dc:creator><![CDATA[Viljami Kuosmanen]]></dc:creator><pubDate>Fri, 24 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;The Consultants are Going Crazy&quot;,
+  &quot;author&quot;: &quot;Viljami Kuosmanen&quot;,
+  &quot;date&quot;: &quot;2020-04-24T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./images/setup.jpg&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\u201CRemote is the future of work\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;Tweets the IT consultant from his bathroom; preparing himself for the next 8 hours of Zoom meetings with bursts of intermittent coding.&quot;), mdx(&quot;p&quot;, null, &quot;His $3000 laptop sitting on a pile of books in his bedroom facing an Ikea bookshelf carefully arranged to showcase his favourite titles at the edges of his webcam frame. Well-known industry classics such as:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The Mythical Man-Month&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The 1-Hour Workweek&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;How to Win Friends and Merge Pull Requests&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Scrum: The Art of Doing Half The Work in Twice the Time&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Problematic Programmer&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Clean(ish) Code&quot;)), mdx(&quot;p&quot;, null, &quot;He\u2019s read at least some of them.&quot;), mdx(&quot;p&quot;, null, &quot;Feeling fresh and prepared, he sits down on the kitchen chair he\u2019s set up in the bedroom with a fresh cup of expensive coffee. &quot;), mdx(&quot;p&quot;, null, &quot;After the appropriate amount of secure two-factor-authentication, he pulls up the Jira board to check stories assigned to him:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;9 tasks assigned in the sprint backlog, 4 in progress. 1 to review&quot;), &quot;. Great! He\u2019s been very productive yesterday.&quot;), mdx(&quot;p&quot;, null, &quot;At &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;09:00&quot;), &quot; he joins the video call.&quot;), mdx(&quot;p&quot;, null, &quot;\u2013 &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CGood Morning! Can you hear me?\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2013 &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CDo you hear me?\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2013 &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CIs everyone here? Should we wait for Marcus to join?\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2013 &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CLet\u2019s wait another 2 minutes and then we can start\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2013 &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CShould I share my screen?\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2026and so on.&quot;), mdx(&quot;p&quot;, null, &quot;After 32 minutes in the 15-minute daily call, he feels inspired and has almost a full hour to put in some coding time.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;inlineCode&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;docker-compose up&quot;)), mdx(&quot;p&quot;, null, &quot;He opens his code editor to the project he\u2019s working on. The laptop fan makes a groaning sound as the integrated development environment struggles to open the project. The solution to a task he was working on yesterday is still clear on his mind. He goes to work.&quot;), mdx(&quot;p&quot;, null, &quot;Another 10 minutes later a team member asks him to review a pull request. He drops what he was doing and starts reviewing his colleague\u2019s code.&quot;), mdx(&quot;p&quot;, null, &quot;He finds the pull request is not ready to be merged.&quot;), mdx(&quot;p&quot;, null, &quot;At &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;10:20&quot;), &quot; he gets a notification on his phone about the next team meeting. This one is a training session called by the DevOps engineer who has introduced another new tool to the continuous integration pipeline.&quot;), mdx(&quot;p&quot;, null, &quot;With Zoom ready to go for the next meeting, he pours himself another cup of coffee and waits for the meeting to begin.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\u201CCan you hear me? \u2026\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;\u2026 and so forth.&quot;), mdx(&quot;p&quot;, null, &quot;The meeting lasts until &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;12:00&quot;), &quot;. It\u2019s lunchtime. &quot;), mdx(&quot;p&quot;, null, &quot;He brings his laptop to the kitchen with him, microwaves a plastic container of yesterday\u2019s pasta dinner leftovers and sits down to eat and browse the news. &quot;), mdx(&quot;p&quot;, null, &quot;Something about a global pandemic. They\u2019re talking about the risks of opening schools and workplaces again. He tweets his thoughts while having his lunch.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CNow that we\u2019re all forced to work from home, will companies finally realize how much more efficient remote asynchronous work is? #COVID19\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;He decides to get a head start on some work and takes only a 25-minute lunch break to get back to the bedroom to work on his JIRA story:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;VIDCO-19: As a user I want to search for products by name&quot;)), mdx(&quot;p&quot;, null, &quot;He works on a list view. He feels productive.&quot;), mdx(&quot;p&quot;, null, &quot;At &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;13:00&quot;), &quot; he receives a Slack message. A team member has sent him a Zoom link for a remote coffee break.&quot;), mdx(&quot;p&quot;, null, &quot;Ah yes, the team had decided to have some casual video chats in order to keep everyone\u2019s spirits up while in isolation. He joins the call but keeps secretly working in the background. Nobody notices.&quot;), mdx(&quot;p&quot;, null, &quot;At &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;13:30&quot;), &quot; There\u2019s a company-wide video call. An update about the pandemic situation. Hopefully nobody is getting laid off.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\u201CThese are hard times for the company.\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;The call starts with a generic update on savings measures and a poorly organised Q&amp;A session using an online poll. There\u2019s nowhere near enough time to answer all the questions submitted.&quot;), mdx(&quot;p&quot;, null, &quot;The call goes overtime and ends at &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;15:36&quot;), &quot;. No layoffs announced.&quot;), mdx(&quot;p&quot;, null, &quot;The next meeting already started 6 minutes ago. But everyone else is late too so it\u2019s probably OK.&quot;), mdx(&quot;p&quot;, null, &quot;Everyone in the team joins the afternoon grooming session lead by the team\u2019s Agile coach who insists on trying out some new video chat tool.&quot;), mdx(&quot;p&quot;, null, &quot;Nobody\u2019s microphone works so they switch back over to Zoom.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\u201CCan you hear me now?\u201D&quot;)), mdx(&quot;p&quot;, null, &quot;The software team are asked to estimate each new story in the backlog. A frustrating exercise due to there being not enough time to have a meaningful discussion about the possible solutions.&quot;), mdx(&quot;p&quot;, null, &quot;Somehow the team assign story points to each new story. Every story ends up getting a 3 story point estimate.&quot;), mdx(&quot;p&quot;, null, &quot;The meeting ends at &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;17:00&quot;), &quot;. It was the last meeting scheduled for today. The IT consultant finally gets his focused work time.&quot;), mdx(&quot;p&quot;, null, &quot;At &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;21:15&quot;), &quot; that same evening, feeling happy with his work, he submits a pull request, moves a subtask to the review column, and shares his thoughts to his followers: &quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\u201CDid we ever really need an office? #COVID19 #remotelife\u201D&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
